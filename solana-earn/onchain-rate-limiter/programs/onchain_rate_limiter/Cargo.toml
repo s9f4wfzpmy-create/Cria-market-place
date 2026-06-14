@@ -1,0 +1,18 @@
+[package]
+name = "onchain_rate_limiter"
+version = "0.1.0"
+description = "A Solana/Anchor implementation of a backend API rate limiter."
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "onchain_rate_limiter"
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
