@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("RateLim11111111111111111111111111111111111111");
+declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkgm4YFhjK7SH");
 
 const MAX_NAME_LEN: usize = 32;
 const REGISTRY_SPACE: usize = 8 + Registry::INIT_SPACE;
